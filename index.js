@@ -92,7 +92,7 @@ const characters = [
 	"/",
 ];
 
-let btnEl = document.getElementById("btn-el");
+let buttonEl = document.getElementById("button-el");
 let passwordOne = document.getElementById("password-one");
 let passwordTwo = document.getElementById("password-two");
 
