@@ -9,13 +9,16 @@
 		<link rel="stylesheet" href="css/utils.css" />
 	</head>
 	<body>
-		<h1>Password Generator</h1>
-		<p>Never use an insecure password ever again.</p>
+		<header class="container">
+			<h1>Password Generator</h1>
+			<p class="header-paragraph">Never use an insecure password ever again.</p>
+		</header>
+		<main>
+			<p id="password-one">xxx</p>
+			<p id="password-two">yyy</p>
 
-		<p id="password-one">xxx</p>
-		<p id="password-two">yyy</p>
-
-		<hr class="rounded" />
+			<hr class="rounded" />
+		</main>
 
 		<button id="button-el" onclick="generate()" class="btn">
 			Generate Passwords

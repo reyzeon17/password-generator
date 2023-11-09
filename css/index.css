@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+header {
+	background-color: var(--orange-slate500);
+	border: solid;
+	border-width: 5px;
+	border-radius: 10px 2px;
+	border-color: var(--orange-slate300);
+}
+
+h1 {
+	font-size: var(--size-7xl);
+}
+.header-paragraph {
+	font-size: var(--size-4xl);
+	margin: var(--size-4xl);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
