@@ -4,10 +4,6 @@ body {
 
 header {
 	background-color: var(--orange-slate500);
-	border: solid;
-	border-width: var(--size-xxs);
-	border-radius: var(--size-5xl);
-	border-color: var(--orange-slate300);
 	margin-top: 1rem;
 }
 
@@ -37,10 +33,6 @@ main {
 	padding: 0.5rem;
 	font-size: var(--size-base);
 	background-color: var(--orange-slate500);
-	border: solid;
-	border-width: var(--size-xxs);
-	border-radius: 2rem;
-	border-color: var(--orange-slate300);
 }
 
 .btn {
@@ -49,7 +41,13 @@ main {
 	background-color: var(--orange-slate500);
 	color: #f1f5f9;
 	padding: 0.5em 1em;
-	border-radius: 6px;
+}
+
+.border {
+	border: solid;
+	border-width: var(--size-xxs);
+	border-radius: var(--size-5xl);
+	border-color: var(--orange-slate300);
 }
 
 /* xs */
@@ -83,4 +81,19 @@ main {
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+	h1 {
+		font-size: var(--size-6xl);
+	}
+	.header-paragraph {
+		font-size: var(--size-2xl);
+	}
+
+	.main-password {
+		font-size: var(--size-xl);
+
+		border-width: 0.5rem;
+		border-radius: 2rem;
+		border-color: var(--orange-slate300);
+	}
+}
