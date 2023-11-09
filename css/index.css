@@ -90,7 +90,7 @@ main {
 	}
 
 	.main-password {
-		font-size: var(--size-xl);
+		font-size: var(--size-9xl);
 
 		border-width: 0.5rem;
 		border-radius: 2rem;
