@@ -3,42 +3,45 @@ body {
 }
 
 header {
-	background-color: var(--orange-slate500);
-	margin-top: 1rem;
+	margin-top: var(--size-5xl);
 }
 
 h1 {
 	font-size: var(--size-5xl);
 	color: var(--blue-slate800);
-	margin: 1rem;
 }
 .header-paragraph {
-	font-size: var(--size-xl);
-	margin: 1rem;
+	font-size: var(--size-base);
+	letter-spacing: 0.3rem;
+	font-weight: bolder;
+	margin-bottom: var(--size-3xl);
 }
 
 main {
-	margin-top: 0.5rem;
-	margin-bottom: 6rem;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
 }
 
 .main-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.password-container {
+	width: 45%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	height: 15%;
 }
 .main-password {
-	width: 38%;
-	padding: 0.5rem;
 	font-size: var(--size-base);
-	background-color: var(--orange-slate500);
 }
 
 .btn {
+	font-size: var(--size-3xl);
 	display: inline-block;
 	text-decoration: none;
-	background-color: var(--orange-slate500);
 	color: #f1f5f9;
 	padding: 0.5em 1em;
 }
@@ -46,36 +49,58 @@ main {
 .border {
 	border: solid;
 	border-width: var(--size-xxs);
-	border-radius: var(--size-5xl);
+	border-radius: var(--size-base);
 	border-color: var(--orange-slate300);
+	background-color: var(--orange-slate500);
 }
 
 /* xs */
 /* @media (min-width: 475px) {} */
 
 /* sm */
-@media (min-width: 640px) {
-	h1 {
-		font-size: var(--size-9xl);
-	}
-	.header-paragraph {
-		font-size: var(--size-2xl);
-	}
-
-	.main-password {
-		font-size: var(--size-xl);
-
-		border-width: 0.5rem;
-		border-radius: 2rem;
-		border-color: var(--orange-slate300);
-	}
-}
+/* @media (min-width: 640px) {} */
 
 /* md */
 /* @media (min-width: 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+	header {
+		margin-top: var(--size-10xl);
+	}
+
+	h1 {
+		font-size: var(--size-9xl);
+	}
+	.header-paragraph {
+		font-size: var(--size-5xl);
+		margin-bottom: var(--size-5xl);
+	}
+
+	main {
+		margin-top: 30rem;
+		margin-bottom: 10rem;
+	}
+	.password-container {
+		width: 45%;
+		height: 200px;
+	}
+	.main-password {
+		font-size: var(--size-5xl);
+	}
+
+	.btn {
+		font-size: var(--size-8xl);
+	}
+
+	.border {
+		border-width: var(--size-base);
+		border-radius: var(--size-5xl);
+	}
+	.container {
+		width: 90%;
+	}
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */
