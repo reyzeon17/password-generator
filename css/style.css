@@ -5,6 +5,9 @@
 	/* COLORS */
 	--clr-dark: #070a13;
 	--clr-light: #f1f5f9;
+	--blue-slate100: #dbeafe;
+	--blue-slate200: #bfdbfe;
+	--blue-slate400: #60a5fa;
 	--blue-slate800: #1e40af;
 	--blue-slate950: #172554;
 	--orange-slate300: #fdba74;
@@ -15,7 +18,7 @@
 	--size-xs: 0.75rem;
 	--size-sm: 0.875rem;
 	--size-base: 1rem;
-	--size-lg: 1.125rem;
+	--size-l: 1.125rem;
 	--size-xl: 1.25rem;
 	--size-2xl: 1.5rem;
 	--size-3xl: 1.875rem;
@@ -41,7 +44,6 @@ body {
 	font-family: "General Sans", sans-serif;
 	background-color: var(--blue-slate950);
 	color: var(--clr-light);
-	border: yellowgreen;
 }
 
 img,

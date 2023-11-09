@@ -4,22 +4,28 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
 		/>
-		<link rel="stylesheet" href="css/index.css" />
+
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/utils.css" />
+		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>
 		<header class="container">
-			<h1>Password Generator</h1>
-			<p class="header-paragraph">Never use an insecure password ever again.</p>
+			<h1>
+				Password<br />
+				Generator
+			</h1>
+			<p class="header-paragraph">
+				Never use an insecure <br />
+				password ever again.
+			</p>
 		</header>
-		<main>
-			<p id="password-one">xxx</p>
-			<p id="password-two">yyy</p>
-
-			<hr class="rounded" />
+		<main class="container">
+			<div class="main-container">
+				<p id="password-one" class="main-password">Password One</p>
+				<p id="password-two" class="main-password">Password Two</p>
+			</div>
 		</main>
-
 		<button id="button-el" onclick="generate()" class="btn">
 			Generate Passwords
 		</button>

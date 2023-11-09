@@ -16,24 +16,13 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
-.btn {
-	display: inline-block;
-	font-weight: 600;
-	text-decoration: none;
-	letter-spacing: -0.05em;
-	background-color: var(--orange-slate500);
-	color: #f1f5f9;
-	padding: 0.5em 1em;
-	border-radius: 6px;
-}
-
 .btn:hover {
 	background-color: var(--orange-slate300);
 	color: var(--blue-slate800);
 }
 
 .container {
-	width: 100%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 0.5rem;
@@ -44,7 +33,7 @@
 	margin-top: 5rem;
 }
 
-/* xs */
+/* xs  */
 @media (min-width: 475px) {
 	.container {
 		max-width: 475px;
