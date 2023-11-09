@@ -64,7 +64,13 @@ main {
 /* @media (min-width: 768px) {} */
 
 /* lg */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+@media (min-width: 1536px) {
 	header {
 		margin-top: var(--size-10xl);
 	}
@@ -101,9 +107,3 @@ main {
 		width: 90%;
 	}
 }
-
-/* xl */
-/* @media (min-width: 1280px) {} */
-
-/* 2xl */
-/* @media (min-width: 1536px) {} */
