@@ -56,7 +56,7 @@ main {
 /* sm */
 @media (min-width: 640px) {
 	h1 {
-		font-size: var(--size-6xl);
+		font-size: var(--size-9xl);
 	}
 	.header-paragraph {
 		font-size: var(--size-2xl);
@@ -81,19 +81,4 @@ main {
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
-@media (min-width: 1536px) {
-	h1 {
-		font-size: var(--size-6xl);
-	}
-	.header-paragraph {
-		font-size: var(--size-2xl);
-	}
-
-	.main-password {
-		font-size: var(--size-9xl);
-
-		border-width: 0.5rem;
-		border-radius: 2rem;
-		border-color: var(--orange-slate300);
-	}
-}
+/* @media (min-width: 1536px) {} */
